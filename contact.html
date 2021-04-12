@@ -53,14 +53,14 @@
         <footer>
             <div class="footer-wrap">
                 <div class="forms">
-                    <form action="">
+                    <form id="form">
                         <p>Форма для бронювання столиків:</p>
                         <p>Ваше ім’я:</p>
-                        <input id="type-input" type="text" placeholder="Наприклад, Іван">
+                        <input id="type-input"  type="text" name="name" placeholder="Наприклад, Іван" required /><br />
                         <p>Ваш мобільний телефон:</p>
-                        <input id="type-input" type="text" placeholder="+380969352444">
+                        <input type="text" name="phone" id="type-input" placeholder="Ваш телефон" required /><br />
                         <p>Виберіть час:</p>
-                        <input type="time">
+                        <input type="time" name="text" placeholder="time">
                         <p></p>
                         <button id="btn-form">забронювати</button>
                     </form>
